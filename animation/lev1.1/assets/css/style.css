@@ -1,0 +1,73 @@
+html{
+    scroll-behavior: smooth;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+p {
+    animation-name: hover;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+#sect1{
+    background-color: tomato
+}
+#sect2{
+    background-color: yellow;
+}
+#sect3{
+background-color: rgb(31, 108, 100);
+}   
+#sect3 a p {
+    rotate: 180deg;
+    animation-name: hover2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes hover {
+    0%{
+    transform: translate(0px, -2px);
+    }
+    50% {
+        transform: translate(0px, 10px);
+    }
+    80% {
+        transform: translate(0px, 30px);  
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+@keyframes hover2 {
+    0%{
+    transform: translate(0px, 2px);
+    }
+    50% {
+        transform: translate(0px, -10px);
+    }
+    80% {
+        transform: translate(0px, -30px);  
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+

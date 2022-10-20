@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height:100px;
+    background-color: tomato;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 0.5px;
+    border-radius: 15px;
+    margin: 10% auto;
+    transition: all 1s linear;
+}
+
+div:hover {
+    transform-origin: bottom left;
+    transform: rotate(90deg) scale(2) ;
+
+}

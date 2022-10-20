@@ -1,0 +1,47 @@
+div {
+    background-color: green;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 50px;
+}
+section {
+    display: flex;
+    margin-left:30vw
+}
+.div1 {
+    transition: transform 1s linear 0s;
+}
+.div1:hover {
+    transform: translate(80px, 80px);
+}
+.div2 {
+    transition: transform 1s linear 0s;
+}
+.div2:hover {
+    transform: translate(80px);
+}
+.div3 {
+    transition: transform 1s linear 0s;
+}
+.div3:hover {
+    transform: translate(0px, 80px);
+}
+.div4 {
+    transition: transform 1s linear 0s;
+}
+.div4:hover {transform: rotate(45deg);}
+.div5{
+    transition: transform 1s linear 0s;
+}
+.div5:hover{transform: scale(1.2,1.5);}
+.div6{
+    transition: transform 1s linear 0s;
+}
+.div6:hover{transform: skew(20deg,10deg);}

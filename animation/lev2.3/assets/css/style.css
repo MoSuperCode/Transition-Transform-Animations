@@ -1,0 +1,24 @@
+img {
+    display: block;
+    margin: 10% auto;
+}
+img:hover {
+    animation: box 4s infinite;
+}
+@keyframes box {
+    0% {
+        box-shadow: 10px 10px 10px 10px chocolate ;
+    }
+    25% {
+        box-shadow: -10px 10px 10px 10px rgb(30, 210, 168) 
+    }
+    50% {
+        box-shadow: -10px -10px 10px 10px rgb(30, 141, 210) 
+    }
+    75% {
+        box-shadow: 10px -10px 10px 10px rgb(207, 30, 210) 
+    }
+    100% {
+        box-shadow: 10px 10px 10px 10px rgb(210, 30, 30) 
+    }
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+p{
+    font-size: 36px;
+}
+div.p1 {
+animation: two 2s infinite;
+}
+.p2 {
+    animation: one 1s infinite;
+}
+.p3 {
+    animation: half 0.5s infinite;
+}
+.p4 {
+    animation: quarter 0.25s infinite;
+}
+.p5 {
+    animation: tenth 0.1s infinite;
+}
+
+@keyframes two {
+    0% {}
+    100% {
+        background-color: black;
+        color:white;
+    }
+}
+@keyframes one {
+    0% {}
+    100% {
+        background-color: black;
+        color:white;
+    }
+}
+@keyframes half {
+    0% {}
+    100% {
+        background-color: black;
+        color:white;
+    }
+}
+@keyframes quarter {
+    0% {}
+    100% {
+        background-color: black;
+        color:white;
+    }
+}
+@keyframes tenth {
+    0% {}
+    100% {
+        background-color: black;
+        color:white;
+    }
+}
